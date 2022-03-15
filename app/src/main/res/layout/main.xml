@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="#14213D">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp">
+
+		<ImageView
+			android:src="@drawable/options"
+			android:layout_width="51dp"
+			android:layout_height="45dp"
+			android:id="@+id/options"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="right|center">
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="KPOP IDOL GALLERY"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_margin="10dp"
+		android:textStyle="bold"
+		android:textColor="#2A9D8F"
+		android:textSize="20sp"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="10dp">
+
+		<GridView
+			android:id="@+id/gridview"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:numColumns="2"
+			android:verticalSpacing="4dp"
+			android:horizontalSpacing="4dp"
+			android:padding="10dp"
+			android:background="@drawable/border"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
