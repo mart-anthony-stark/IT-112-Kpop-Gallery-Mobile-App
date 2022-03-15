@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:layout_margin="15dp">
+
+	<ImageSwitcher
+		android:src="@android:drawable/ic_delete"
+		android:layout_width="match_parent"
+		android:layout_height="300dp"
+		android:id="@+id/modalImage"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="25dp">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Prev"
+			android:id="@+id/prev"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="left"
+			android:background="@drawable/radius"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Next"
+				android:id="@+id/next"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/radius"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
